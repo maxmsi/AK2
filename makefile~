@@ -1,0 +1,2 @@
+Fib:Fib_c.c
+	gcc -m32 Fib_asm.s Fib_c.c -o Fib -g
