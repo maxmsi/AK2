@@ -1,0 +1,2 @@
+program: asm.s
+	@gcc -g -m32 -std=c99 -o program kod.c asm.s
